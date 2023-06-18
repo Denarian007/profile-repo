@@ -1,0 +1,446 @@
+
+
+
+body{
+    background-color: black;
+    max-width: 100%;
+}
+
+
+#box{
+    display: block;
+    max-width: inherit;
+    height: max-content;
+    margin: none;
+    right: 0;
+    border: none;
+    background-image: url(orsrc67320.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: blanchedalmond;
+}
+#container{
+    display: grid;
+    width: 100%;
+    height: max-content;
+    border: none;
+    padding-right: 0;
+    padding-bottom: 50px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+ /*resonsive design*/
+
+@media (max-width:360px){
+    body{
+        width: 1000px;
+        height:max-content;
+        background-size:cover;
+    }
+    #box{
+        display: inline-block;
+        width:1000px;
+        background-size:cover;
+        height:max-content;
+    }
+    #container{
+        width:1000px;
+        
+        height:max-content
+    }    
+    header{
+        width:1000px;
+    }
+    
+    #subcontainer, #container, #container2, #container3, #container4{
+        background-size:cover;
+        width:1000px;
+    }
+    .info{
+        background: none;
+    }
+    }
+    
+    @media (max-width:400px){
+        body{
+            width: 1000px;
+            height:max-content;
+            background-size:cover;
+        }
+        #box{
+            display: inline-block;
+            width:1000px;
+            background-size:cover;
+            height:max-content;
+        }
+        #container{
+            width:1000px;
+            
+            height:max-content
+        }    
+        header{
+            width:1000px;
+        }
+        
+        #subcontainer, #container, #container2, #container3, #container4{
+            background-size:cover;
+            width:1000px;
+        }
+        .info{
+            background: none;
+        }
+        }
+    
+        @media (max-width:450px){
+            body{
+                width: 1000px;
+                height:max-content;
+                background-size:cover;
+            }
+            #box{
+                display: inline-block;
+                width:2000px;
+                background-size:cover;
+                height:max-content;
+            }
+            #container{
+                width:1000px;
+                
+                height:max-content
+            }    
+            header{
+                width:1000px;
+            }
+            
+            #subcontainer, #container, #container2, #container3, #container4{
+                background-size:cover;
+                width:1000px;
+            }
+            .info{
+                background: none;
+            }
+            }
+
+
+
+header{
+    margin-left: 250px;
+}
+.head{
+    display: inline-block;
+    border: none;
+    height: auto;
+}
+button:hover{
+    border: none;
+    background-color: black;
+    
+}
+button{
+    background-color: red;
+    display: inline-block;
+    border: 2px solid red;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+    transition: background-color 1s;
+    
+}
+.button2:hover{
+    background-color: red;
+    color: white;
+    
+}
+.button2{
+    display: inline-block;
+    border: 2px solid grey;
+    background: none;
+    
+}
+#subcontainer{
+    display: flex;
+    border: none;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    height: max-content;
+    width: 100%;
+}
+.info{
+    flex-basis: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+    word-wrap: normal;
+}
+.img{
+    flex-basis: 50%;
+    margin-top: -50px;
+    padding-bottom: 0;
+}
+.img img{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h1{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 70px;
+    color: white;
+}
+h2{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 70px;
+}
+h6{
+    color: red;
+}
+
+#container2{
+    display: flex;
+    
+    border: none;
+    margin-top: o;
+    background-color: black;
+    width: inherit;
+    height: max-content;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.aboutus{
+flex-basis: 50%;
+margin-left: 50px;
+}
+.aboutus p{
+    color: white;
+}
+.img2{
+    border: 5px solid red;
+}
+#infogrid{
+    display: grid;
+    border: none;
+    grid-template-columns: auto auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 40px;
+    padding-top: 50px;
+}
+#infogrid .sub{
+    border: none;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    color:gray;
+    height: 30px;
+    font-weight: bolder;
+}
+
+.aboutus
+button:hover{
+    border: none;
+    background-color: black;
+
+}
+button{
+    background-color: red;
+    display: inline-block;
+    border: 2px solid red;
+    margin-top: 20px;
+    height: 50px;
+    width: 250px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+    transition: background-color 1s;
+    
+}
+.button3:hover{
+    background-color: red;
+    color: white;
+    
+}
+.button3{
+    display: inline-block;
+    border: 2px solid red;
+    background: none;
+    color: red;
+    
+}
+#container3{
+    display: flex;
+    border: none;
+    margin-top: o;
+    background-color: #1B1212;
+   
+    width: inherit;
+    height:  max-content;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    color: white;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+#quals{
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+#export{
+    flex-basis: 50%;
+    flex-grow: 0;
+}
+
+#skill{
+    display: grid;
+    width: 100%;
+    height: max-content;
+    border: none;
+    padding-right: 0;
+    padding-bottom: 50px;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    
+}
+#skill .skill{
+    border: none;
+    
+
+}
+.skill0ms{
+    position: relative;
+    border: 5px solid grey;
+    align-content: center;
+    /*line-height: -50%;*/
+    background: black;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50% 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+    background: linear-gradient(#000000, #000000) padding-box,
+    linear-gradient(to right, rgba(255,26,0,1) 0%,rgba(255,26,0,1) 89%,rgba(129,133,137) 77%) border-box;
+    border: 5px solid transparent;
+    border-radius: 50px;
+}
+
+
+
+.skill p{
+    font-size: 30px;
+    color: red;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.skill0 p{
+    font-size: 30px;
+
+}
+
+/* for the circular meters
+background: linear-gradient(#000000, #000000) padding-box,
+linear-gradient(to right, rgba(255,26,0,1) 0%,rgba(255,26,0,1) 89%,rgba(129,133,137) 77%) border-box;
+border: 5px solid transparent;
+border-radius: 50px;
+*/
+
+.skill0cs{
+    
+    border: 5px solid grey;
+    align-content: center;
+    /*line-height: -50%;*/
+    background: black;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50% 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background: linear-gradient(#000000, #000000) padding-box,
+    linear-gradient(to right, rgba(255,26,0,1) 0%,rgba(255,26,0,1) 85%,rgba(129,133,137) 77%) border-box;
+    border: 5px solid transparent;
+    border-radius: 50px;
+}
+
+.skill0html{
+    border: 5px solid grey;
+    align-content: center;
+    /*line-height: -50%;*/
+    background: black;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50% 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background: linear-gradient(#000000, #000000) padding-box,
+    linear-gradient(to right, rgba(255,26,0,1) 0%,rgba(255,26,0,1) 75%,rgba(129,133,137) 77%) border-box;
+    border: 5px solid transparent;
+    border-radius: 50px;
+}
+    .skill0css{ border: 5px solid grey;
+        align-content: center;
+        /*line-height: -50%;*/
+        background: black;
+        height: fit-content;
+        width: fit-content;
+        border-radius: 50% 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+        background: linear-gradient(#000000, #000000) padding-box,
+        linear-gradient(to right, rgba(255,26,0,1) 0%,rgba(255,26,0,1) 70%,rgba(129,133,137) 77%) border-box;
+        border: 5px solid transparent;
+        border-radius: 50px;
+}
+
+#container4{
+    display: flexbox;
+    border: none;
+    margin-top: o;
+    background-color: #0000;
+   
+    width: inherit;
+    height:  800px;
+    padding-left: 150px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    color: white;
+   
+    font-size: 30px;
+
+    align-content: center;
+    text-align: center;
+}
+
+#feat{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.item{
+    border: none;
+    height: 500px;
+    width: auto;
+    align-content: center;
+    background: linear-gradient(150deg,rgb(217, 29, 30)40%, rgb(8, 0, 0)60%);
+}
+
+
